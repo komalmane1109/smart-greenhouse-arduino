@@ -7,8 +7,7 @@ An Arduino Uno based system that monitors temperature, humidity, soil moisture a
 ## Overview
 Sensors feed an Arduino Uno, which compares the readings against thresholds and drives actuators through relay modules. Temperature and humidity are shown on an I2C LCD. The goal is to keep plant conditions stable with minimal manual work.
 
-## My Role
-Co-author of the project report and member of the five-person team (see the [report](docs/report.pdf) for the full author list). This repository packages the team's design, sketches and results; the integrated sketch in `firmware/greenhouse_controller/` was prepared by me from the team's two original sketches.
+
 
 ## Features
 | Condition | Sensor | Action |
@@ -20,7 +19,7 @@ Co-author of the project report and member of the five-person team (see the [rep
 
 ## Hardware
 - Arduino Uno
-- DHT sensor (DHT22 in the simulation and sketches; the report text mentions DHT11)
+- DHT sensor 
 - Soil moisture sensor, LDR
 - Relay modules driving a fan, water pump and light strip
 - 16x2 I2C LCD (address 0x27)
